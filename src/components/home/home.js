@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'rsuite/dist/styles/rsuite.min.css';
 import { Grid, Row, Col } from 'rsuite';
-import Toggle from '../toggle/toggle';
+import Accordions from '../accordions/accordions';
 
 class Home extends Component {
   render() {
@@ -9,8 +9,11 @@ class Home extends Component {
       <Grid fluid>
         <Row className="show-grid">
           <Col xs={24} sm={24} md={24}>
-            <h1>Home page</h1>
-            <Toggle />
+            <h1>РОМАН АЯПЕРГЕНОВ</h1>
+            <img src="http://frontend.webexcel.ru/images/ayapergenov-ava3.jpg" alt="" />
+          </Col>
+          <Col xs={24} sm={24} md={24}>
+            <Accordions />
           </Col>
         </Row>
       </Grid>

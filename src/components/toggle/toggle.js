@@ -28,7 +28,7 @@ class Toggle extends Component {
             this.container = ref;
           }}
         >
-          container
+          loremru
         </div>
         {show ? (
           <Portal

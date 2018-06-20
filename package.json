@@ -9,12 +9,18 @@
     "material-ui": "^1.0.0-beta.47",
     "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.4.0",
+    "react-accessible-accordion": "^2.4.2",
     "react-app-rewire-less": "^2.1.1",
     "react-app-rewired": "^1.5.2",
+    "react-collapsible": "^2.2.0",
     "react-dom": "^16.4.0",
+    "react-images": "^0.5.17",
+    "react-responsive-accordion": "^1.0.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "rsuite": "^3.0.6"
+    "rsuite": "^3.0.6",
+    "stylus": "^0.54.5",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-app-rewired start",

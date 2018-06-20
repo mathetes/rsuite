@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'rsuite/dist/styles/rsuite.min.css';
 import { Navbar, Nav } from 'rsuite';
 import { Link } from 'react-router-dom';
+import './header.css';
 
 class Header extends Component {
   render() {
