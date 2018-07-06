@@ -25,6 +25,11 @@ class Header extends Component {
             </Nav.Item>
             <Nav.Item>
               <ul>
+                 <li><Link to='/resume'>Резюме</Link></li>
+               </ul>
+            </Nav.Item>
+            <Nav.Item>
+              <ul>
                  <li><Link to='/portfolio'>Портфолио</Link></li>
                </ul>
             </Nav.Item>
