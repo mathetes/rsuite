@@ -20,7 +20,19 @@ class Contacts extends Component {
     return (
       <Grid fluid>
         <Row className="show-grid">
-          <Col xs={24} sm={12} md={6}>
+          <h2>В соц. сетях</h2>
+          <ul>
+            <li>Github</li>
+            <li>Facebook</li>
+            <li>Linkedin</li>
+            <li>vk</li>
+            <li></li>
+          </ul>
+        </Row>
+        <Row className="show-grid">
+
+
+          <Col xs={24} sm={12} md={8}>
           <div>
             <Card>
               <CardMedia
@@ -38,7 +50,7 @@ class Contacts extends Component {
             </Card>
           </div>
           </Col>
-          <Col xs={24} sm={12} md={6}>
+          <Col xs={24} sm={12} md={8}>
           <div>
             <Card>
               <CardMedia
@@ -57,7 +69,7 @@ class Contacts extends Component {
             </Card>
           </div>
           </Col>
-          <Col xs={24} sm={12} md={6}>
+        <Col xs={24} sm={12} md={8}>
           <div>
             <Card>
               <CardMedia
@@ -69,7 +81,8 @@ class Contacts extends Component {
                   Обо мне
                 </Typography>
                 <Typography component="p">
-                  Женат, 3 детей
+                  Женат, 3 детей <br/>
+                  Люблю футбол и настольный теннис
                 </Typography>
               </CardContent>
             </Card>

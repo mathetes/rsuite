@@ -15,27 +15,27 @@ class Header extends Component {
           <Nav>
             <Nav.Item>
               <ul>
-               <li><Link to='/'>Главная</Link></li>
+               <li className="menu-items"><Link to='/'>Главная</Link></li>
               </ul>
             </Nav.Item>
             <Nav.Item>
               <ul>
-                 <li><Link to='/skills'>Навыки</Link></li>
+                 <li className="menu-items"><Link to='/skills'>Навыки</Link></li>
                </ul>
             </Nav.Item>
             <Nav.Item>
               <ul>
-                 <li><Link to='/resume'>Резюме</Link></li>
+                 <li className="menu-items"><Link to='/resume'>Резюме</Link></li>
                </ul>
             </Nav.Item>
             <Nav.Item>
               <ul>
-                 <li><Link to='/portfolio'>Портфолио</Link></li>
+                 <li className="menu-items"><Link to='/portfolio'>Портфолио</Link></li>
                </ul>
             </Nav.Item>
             <Nav.Item>
               <ul>
-                 <li><Link to='/contacts'>Контакты</Link></li>
+                 <li className="menu-items"><Link to='/contacts'>Контакты</Link></li>
               </ul>
             </Nav.Item>
           </Nav>

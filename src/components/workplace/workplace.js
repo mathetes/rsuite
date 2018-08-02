@@ -85,13 +85,13 @@ function Workplace(props) {
       <Card className={classes.card}>
         <CardContent>
           <Typography variant="headline" component="h2">
-            Web-Программист в e2e4gu.ru
+            Мастер по ремонту ПК
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-          июль-октябрь 2016
+          2009-2015
           </Typography>
           <Typography component="p">
-            Разработка сайтов на full-stack. На базе Wordpress и 1С-Битрикс
+            Частный ремонт ПК
           </Typography>
         </CardContent>
       </Card>

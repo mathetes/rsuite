@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'rsuite/dist/styles/rsuite.min.css';
 import { Grid, Row, Col } from 'rsuite';
-import CenteredTabs from '../tabs/tabs';
+import Mysites from '../mysites/mysites';
 
 class Portfolio extends Component {
   render() {
@@ -9,8 +9,7 @@ class Portfolio extends Component {
       <Grid fluid>
         <Row className="show-grid">
           <Col xs={24} sm={24} md={24}>
-            <h1>Portfolio Page</h1>
-            <CenteredTabs></CenteredTabs>
+            <Mysites></Mysites>
           </Col>
         </Row>
       </Grid>

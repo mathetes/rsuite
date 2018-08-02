@@ -1,0 +1,12 @@
+.myavatar {
+  float:left;
+  border-radius: 50%;
+}
+.myperson {
+  padding-left: 30px;
+  display: grid;
+  text-align: center;
+}
+.myname {
+  font-size: 4em;
+}

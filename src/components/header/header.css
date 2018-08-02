@@ -1,3 +1,7 @@
 .rs-navbar {
   background-color: #000 !important;
+  margin-bottom: 50px; 
+}
+.menu-items {
+  list-style: none;
 }
