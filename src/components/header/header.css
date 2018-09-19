@@ -1,7 +1,27 @@
 .rs-navbar {
   background-color: #000 !important;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
+}
+
+.main-menu {
+  display: inline-grid ;
 }
 .menu-items {
   list-style: none;
+}
+
+.rs-navbar-header {
+  text-transform: uppercase;
+  display: table;
+  position: relative;
+}
+
+.navbar-brand {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size:1.4em;
 }

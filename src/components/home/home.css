@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Nautilus';
+  font-style: normal;
+  font-weight: 400;
+  /*src: url('static/nautilus/nautilus.eot'); /* IE9 Compat Modes */
+
+}
 .myavatar {
   float:left;
   border-radius: 50%;
@@ -5,8 +12,8 @@
 .myperson {
   padding-left: 30px;
   display: grid;
-  text-align: center;
 }
 .myname {
   font-size: 4em;
+  font-family: Nautilus;
 }

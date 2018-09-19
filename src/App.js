@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import 'rsuite/dist/styles/rsuite.min.css';
 import Header from "./components/header/header";
 import Main from "./components/main/main";
+import Footer from "./components/footer/footer";
 import 'typeface-roboto';
-
+import "./index.css";
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
       <div>
           <Header />
           <Main />
+          <Footer />
       </div>
     );
   }

@@ -1,0 +1,14 @@
+.accordion__title {
+    background-color: #41046F;
+}
+
+.accordion__title:hover {
+    background-color: #660BAB;
+}
+
+.accordion__title>h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 700;
+}

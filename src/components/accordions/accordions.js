@@ -8,13 +8,15 @@ import {
 
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
+import "./accordions.css";
+
 
 class Accordions extends Component {
   render() {
     return (
       <div>
         <Accordion>
-            <AccordionItem>
+            <AccordionItem expanded>
                 <AccordionItemTitle>
                     <h3>Навыки</h3>
                 </AccordionItemTitle>
