@@ -4,6 +4,7 @@ import { Grid, Row, Col } from 'rsuite';
 import { withStyles } from 'material-ui/styles';
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
+import { Avatar } from 'antd';
 
 const styles = {
   card: {
@@ -22,9 +23,13 @@ class Contacts extends Component {
         <Row className="show-grid">
           <h2>В соц. сетях</h2>
           <ul>
+            <Avatar src="https://www.rarst.net/slides/caching-ru/pictures/github-64-black.png" />
             <li>Github</li>
+            <Avatar src="http://duplatakes.es/fotos/facebook.png" />
             <li>Facebook</li>
+            <Avatar src="https://findicons.com/files/icons/1573/iphone_style/64/linkedin.png" />
             <li>Linkedin</li>
+            <Avatar src="https://shuma647.ru/wp-content/uploads/soc/vk.png" />
             <li>vk</li>
             <li></li>
           </ul>

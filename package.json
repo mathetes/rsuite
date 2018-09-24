@@ -6,6 +6,7 @@
     "@babel/runtime": "^7.0.0-beta.49",
     "@material-ui/icons": "^1.1.0",
     "animate.css": "^3.7.0",
+    "antd": "^3.9.2",
     "babel-runtime": "^6.26.0",
     "font-awesome": "^4.7.0",
     "material-ui": "^1.0.0-beta.47",

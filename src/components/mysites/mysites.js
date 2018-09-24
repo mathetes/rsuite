@@ -28,7 +28,7 @@ function Mysites(props) {
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
-            Сибпромэнерго
+            Сибпром<br />энерго
           </Typography>
           <Typography component="p">
             Компания по продаже энергооборудования

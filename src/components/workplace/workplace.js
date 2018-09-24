@@ -36,7 +36,7 @@ function Workplace(props) {
             Ведущий системный администратор АО НЗИВ
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
-          2016- по настроящее время
+          ноябрь 2016- по настроящее время
           </Typography>
           <Typography component="p">
             Поддержка серверов предприятия, сопровождение сайта www.nziv.ru
